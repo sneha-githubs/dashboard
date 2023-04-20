@@ -44,8 +44,8 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td><a href="layouts-horizontal">Co-operative</a></td>
-                                <td>savings</td>
+                                <td><a href="bank-view">Co-operative</a></td>
+                                <td><a href="agent">samsung</a></td>
                                 <td>61</td>
                                 <td>23</td>
                                 <td style="width: 100px">
@@ -59,8 +59,8 @@
                             </tr>
                             <tr>
                                 <td>1</td>
-                                <td>Co-operative</td>
-                                <td>savings</td>
+                                <td><a href="bank-view">Co-operative</a></td>
+                                <td><a href="agent">samsung</a></td>
                                 <td>61</td>
                                 <td>23</td>
                                 <td style="width: 100px">
@@ -74,8 +74,8 @@
                             </tr>
                             <tr>
                                 <td>1</td>
-                                <td>Co-operative</td>
-                                <td>savings</td>
+                                <td><a href="bank-view">Co-operative</a></td>
+                                <td><a href="agent">samsung</a></td>
                                 <td>61</td>
                                 <td>23</td>
                                 <td style="width: 100px">
@@ -89,8 +89,8 @@
                             </tr>
                             <tr>
                                 <td>1</td>
-                                <td>Co-operative</td>
-                                <td>savings</td>
+                                <td><a href="bank-view">Co-operative</a></td>
+                                <td><a href="agent">samsung</a></td>
                                 <td>61</td>
                                 <td>23</td>
                                 <td style="width: 100px">
@@ -104,8 +104,8 @@
                             </tr>
                             <tr>
                                 <td>1</td>
-                                <td>Co-operative</td>
-                                <td>savings</td>
+                                <td><a href="bank-view">Co-operative</a></td>
+                                <td><a href="agent">samsung</a></td>
                                 <td>61</td>
                                 <td>23</td>
                                 <td style="width: 100px">
@@ -119,8 +119,8 @@
                             </tr>
                             <tr>
                                 <td>1</td>
-                                <td>Co-operative</td>
-                                <td>savings</td>
+                                <td><a href="bank-view">Co-operative</a></td>
+                                <td><a href="agent">samsung</a></td>
                                 <td>61</td>
                                 <td>23</td>
                                 <td style="width: 100px">
@@ -134,8 +134,8 @@
                             </tr>
                             <tr>
                                 <td>1</td>
-                                <td>Co-operative</td>
-                                <td>savings</td>
+                                <td><a href="bank-view">Co-operative</a></td>
+                                <td><a href="agent">samsung</a></td>
                                 <td>61</td>
                                 <td>23</td>
                                 <td style="width: 100px">

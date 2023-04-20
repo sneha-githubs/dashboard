@@ -21,12 +21,28 @@
     type="text/css"
 />
 --}} @endsection @section('content') @component('components.breadcrumb')
-@slot('li_1') Tables @endslot @slot('title') DataTables @endslot @endcomponent
+@slot('li_1') Tables @endslot @slot('title') Devices / Feroke @endslot @endcomponent
 
 <div class="row">
     <div class="col-12">
         <div class="card">
             <div class="card-body">
+            <div class="row justify-content-between align-items-center">
+                        
+                        <div class="col-sm-auto">
+                            <div class="d-flex align-items-center gap-1 mb-4">
+                                <div class="input-group datepicker-range align-items-end">
+                                 </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-sm-auto">
+                            <div class="mb-4">
+                                <button type="button" class="btn btn-light waves-effect waves-light" data-bs-toggle="modal"
+                                    data-bs-target="#adddevice"><i class="bx bx-plus me-1"></i> Add Device</button>
+                            </div>
+                        </div>
+                    </div>
                 <table
                     id="datatable"
                     class="table table-bordered dt-responsive nowrap w-100"
@@ -34,51 +50,146 @@
                     <thead>
                         <tr>
                             <th>Sl.NO</th>
-                            <th>Bank</th>
-                            <th>Branch</th>
-                            <th>Device</th>
                             <th>Username</th>
-                            <th>Password</th>
-                            <th>Collection</th>
+                            <th>Device</th>
+                            <th>Collection Closed</th>
+                            <th>File Downloaded</th>
+                            <th>Reset Device</th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>Co-opartvive</td>
-                            <td>Feroke</td>
+                            <td><a href="agent">Aswin</a></td>
                             <td>Samsung</td>
-                            <td>Samsung</td>
-                            <td>432</td>
-                            <td>Rs.567</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td style="width: 100px">
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Rename device
+                                </a>
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Reset device
+                                </a>
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Clear uploads
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td>1</td>
-                            <td>Co-opartvive</td>
-                            <td>Feroke</td>
+                            <td>Aswin</td>
                             <td>Samsung</td>
-                            <td>Samsung</td>
-                            <td>432</td>
-                            <td>Rs.567</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td style="width: 100px">
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Rename device
+                                </a>
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Reset device
+                                </a>
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Clear uploads
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td>1</td>
-                            <td>Co-opartvive</td>
-                            <td>Feroke</td>
-                            <td>Samsung</td>
-                            <td>Samsung</td>
-                            <td>432</td>
-                            <td>Rs.567</td>
+                            <td>Aswin</td>
+                            <td>nokia</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td style="width: 100px">
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Rename device
+                                </a>
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Reset device
+                                </a>
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Clear uploads
+                                </a>
+                            </td>
                         </tr>
                         <tr>
                             <td>1</td>
-                            <td>Co-opartvive</td>
-                            <td>Feroke</td>
-                            <td>Samsung</td>
-                            <td>Samsung</td>
-                            <td>432</td>
-                            <td>Rs.567</td>
+                            <td>Aswin</td>
+                            <td>nokias</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td style="width: 100px">
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Rename device
+                                </a>
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Reset device
+                                </a>
+                                <a
+                                    class="btn btn-outline-secondary btn-sm edit"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal"
+                                    title="Edit"
+                                >
+                                Clear uploads
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -142,7 +253,77 @@
     <!-- /.modal-dialog -->
 </div>
 <!-- /.modal -->
-
+<!-- sample modal content -->
+<div
+    id="adddevice"
+    class="modal fade"
+    tabindex="-1"
+    aria-labelledby="myModalLabel"
+    aria-hidden="true"
+>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myModalLabel">Add Device</h5>
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                ></button>
+            </div>
+            <div class="modal-body">
+            <form class="needs-validation" novalidate>
+                        <div class="row">
+                       
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom02">Username</label>
+                                    <input type="text" class="form-control" id="validationCustom02" placeholder="Username" value="" required>
+                                    <div class="valid-feedback">
+                                    Please enter a username
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom03">Password</label>
+                                    <input type="text" class="form-control" id="validationCustom03" placeholder="Password" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a Password.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom04">Confirm Password</label>
+                                    <input type="text" class="form-control" id="validationCustom04" placeholder="Confirm Password" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a Confirm Password.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                                    <div class="form-check mb-3">
+                                                        <input class="form-check-input" type="checkbox" id="remember-check">
+                                                        <label class="form-check-label" for="remember-check">
+                                                        Allow Cancellation
+                                                        </label>
+                                                    </div>
+                                                </div>
+                        </div>
+                        
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </form>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
 @endsection @section('script')
 
 <!-- Required datatable js -->

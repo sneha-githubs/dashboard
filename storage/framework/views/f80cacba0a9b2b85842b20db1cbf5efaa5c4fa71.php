@@ -65,40 +65,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="mb-3">
-                                <label class="form-label" for="validationCustom05">SMS Header</label>
-                                    <input type="text" class="form-control" id="validationCustom05" placeholder="" required>
-                                    <div class="invalid-feedback">
-                                        Please enter a SMS Header.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="mb-3">
-                                <label class="form-label">Date</label>
-                                    <input type="date" class="form-control" id="datepicker-datetime" required>
-                                    <div class="invalid-feedback">
-                                        Please enter a SMS Header.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="mb-3">
-                                   <label for="choices-single-default" class="form-label font-size-13 text-muted">Default</label>
-                                    <select class="form-control" data-trigger name="choices-single-default"
-                                        id="choices-single-default"
-                                        placeholder="This is a search placeholder">
-                                        <option value=""> </option>
-                                        <option value="Choice 1">Choice 1</option>
-                                        <option value="Choice 2">Choice 2</option>
-                                        <option value="Choice 3">Choice 3</option>
-                                    </select>
-                                    <div class="invalid-feedback">
-                                        Please enter a SMS Header.
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
                         
                         <button class="btn btn-primary" type="submit">Submit</button>

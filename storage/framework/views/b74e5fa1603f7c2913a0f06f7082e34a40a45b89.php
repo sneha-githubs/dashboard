@@ -17,64 +17,29 @@
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" class="has-arrow">
+                    <a href="bank-view">
                         <i data-feather="grid"></i>
-                        <span data-key="t-apps">Bank</span>
+                        <span data-key="t-horizontal">Banks</span>
                     </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li>
-                            <a href="bank-add">
-                                <span data-key="t-calendar">Add Bank</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="bank-view">
-                                <span data-key="t-chat">View Bank</span>
-                            </a>
-                        </li>
-                    </ul>
                 </li>
 
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="users"></i>
-                        <span data-key="t-authentication">Branch</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="branch-add" data-key="t-login">Add Branch</a></li>
-                        <li><a href="branch-view" data-key="t-register">View Branch</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="file-text"></i>
-                        <span data-key="t-pages">Devices</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="device-add" data-key="t-starter-page">Add Device</a></li>
-                        <li><a href="device-view" data-key="t-maintenance">View Device</a>
-                        </li>
-                       
-                    </ul>
-                </li>
+               
                 <li>
                     <a href="device-all">
-                        <i data-feather="layout"></i>
+                        <i data-feather="smartphone"></i>
                         <span data-key="t-horizontal">All Devices</span>
                     </a>
                 </li>
                 <li>
                     <a href="billing">
-                        <i data-feather="layout"></i>
+                        <i data-feather="file-text"></i>
                         <span data-key="t-horizontal">Billing</span>
                     </a>
                 </li>
 
                 <li>
                     <a href="message">
-                        <i data-feather="layout"></i>
+                        <i data-feather="send"></i>
                         <span data-key="t-horizontal">Message</span>
                     </a>
                 </li>
@@ -82,7 +47,7 @@
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow">
-                        <i data-feather="briefcase"></i>
+                        <i data-feather="file"></i>
                         <span data-key="t-components">Reports</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
@@ -91,7 +56,12 @@
                     </ul>
                 </li>
 
-                
+                <li>
+                    <a href="">
+                        <i data-feather="log-out"></i>
+                        <span data-key="t-horizontal">Logout</span>
+                    </a>
+                </li>
 
             </ul>
 

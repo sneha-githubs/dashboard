@@ -15,22 +15,7 @@
               <div class="card-body">
                     <form class="needs-validation" novalidate>
                         <div class="row">
-                        <div class="col-md-4">
-                                <div class="mb-3">
-                                   <label for="choices-single-default" class="form-label font-size-13 text-muted">Bank</label>
-                                    <select class="form-control" data-trigger name="choices-single-default"
-                                        id="choices-single-default"
-                                        placeholder="This is a search placeholder">
-                                        <option value=""> </option>
-                                        <option value="Choice 1">Bank 1</option>
-                                        <option value="Choice 2">Bank 2</option>
-                                        <option value="Choice 3">Bank 3</option>
-                                    </select>
-                                    <div class="invalid-feedback">
-                                        Please enter a Bank.
-                                    </div>
-                                </div>
-                            </div>
+                       
                             <div class="col-md-4">
                                 <div class="mb-3">
                                     <label class="form-label" for="validationCustom01">Branch Name</label>

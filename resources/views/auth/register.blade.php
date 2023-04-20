@@ -17,16 +17,11 @@
                         <div class="auth-full-page-content d-flex p-sm-5 p-4">
                             <div class="w-100">
                                 <div class="d-flex flex-column h-100">
-                                    <div class="mb-4 mb-md-5 text-center">
-                                        <a href="index" class="d-block auth-logo">
-                                            <img src="assets/images/logo-sm.svg" alt="" height="28"> <span
-                                                class="logo-txt">Minia</span>
-                                        </a>
-                                    </div>
+                                   
                                     <div class="auth-content my-auto">
                                         <div class="text-center">
                                             <h5 class="mb-0">Change password</h5>
-                                            <p class="text-muted mt-2">Get your free Minia account now.</p>
+                                          
                                         </div>
                                         <form method="POST" action="{{ route('register') }}"
                                             class="needs-validation mt-4 pt-2" novalidate action="index">
@@ -94,8 +89,8 @@
                                     <div class="mt-4 mt-md-5 text-center">
                                         <script>
                                             document.write(new Date().getFullYear())
-                                        </script> Minia . Crafted with <i class="mdi mdi-heart text-danger"></i> by
-                                        Themesbrand</p>
+                                        </script> © palm collection . Designed with <i class="mdi mdi-heart text-danger"></i> by
+                                        Codeneos</p>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +99,7 @@
                     </div>
                     <!-- end col -->
                     <div class="col-xxl-9 col-lg-8 col-md-7">
-                        <div class="auth-bg pt-md-5 p-4 d-flex">
+                        <div class="auth-bg pt-md-5 p-4 d-flex justify-content-center align-items-center">
                             <div class="bg-overlay bg-primary"></div>
                             <ul class="bg-bubbles">
                                 <li></li>
@@ -118,7 +113,23 @@
                                 <li></li>
                                 <li></li>
                             </ul>
-                          
+                            <!-- end bubble effect -->
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-xl-7">
+                                    <div class="p-0 p-sm-4 px-xl-0">
+                                    <div class="mb-4 mb-md-5 text-center">
+                                        <a href="index" class="d-block auth-logo">
+                                            <img src="assets/images/fav.png" alt="" width="200"> <span
+                                                class="logo-txt">Palm collection</span>
+                                        </a>
+                                    </div>
+                                        <!-- end review carousel -->
+                                        <div class="d-flex">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <!-- end col -->

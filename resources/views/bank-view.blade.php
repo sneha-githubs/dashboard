@@ -27,7 +27,21 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-body">
-
+                <div class="row justify-content-between align-items-center">
+                        
+                        <div class="col-sm-auto">
+                            <div class="d-flex align-items-center gap-1 mb-4">
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="col-sm-auto">
+                            <div class="mb-4">
+                                <button type="button" class="btn btn-light waves-effect waves-light" data-bs-toggle="modal"
+                                    data-bs-target="#myModal1"><i class="bx bx-plus me-1"></i> Add bank</button>
+                            </div>
+                        </div>
+                    </div>
                     <table id="datatable" class="table table-bordered dt-responsive  nowrap w-100">
                         <thead>
                             <tr>
@@ -45,7 +59,75 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td><a href="layouts-horizontal">Co-operative</a></td>
+                                <td><a href="branch-view">Co-operative</a></td>
+                                <td>savings</td>
+                                <td>61</td>
+                                <td>Co-operative</td>
+                                <td>6/2/2023</td>
+                                <td style="width: 100px">
+                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit" data-bs-toggle="modal"
+                                    data-bs-target="#myModal">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="branch-view">Co-operative</a></td>
+                                <td>savings</td>
+                                <td>61</td>
+                                <td>Co-operative</td>
+                                <td>6/2/2023</td>
+                                <td style="width: 100px">
+                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit" data-bs-toggle="modal"
+                                    data-bs-target="#myModal">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="branch-view">Co-operative</a></td>
+                                <td>savings</td>
+                                <td>61</td>
+                                <td>Co-operative</td>
+                                <td>6/2/2023</td>
+                                <td style="width: 100px">
+                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit" data-bs-toggle="modal"
+                                    data-bs-target="#myModal">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="branch-view">Co-operative</a></td>
+                                <td>savings</td>
+                                <td>61</td>
+                                <td>Co-operative</td>
+                                <td>6/2/2023</td>
+                                <td style="width: 100px">
+                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit" data-bs-toggle="modal"
+                                    data-bs-target="#myModal">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="branch-view">Co-operative</a></td>
                                 <td>savings</td>
                                 <td>61</td>
                                 <td>Co-operative</td>
@@ -61,7 +143,7 @@
                             </tr>
                             <tr>
                                 <td>1</td>
-                                <td>Co-operative</td>
+                                <td><a href="branch-view">Co-operative</a></td>
                                 <td>savings</td>
                                 <td>61</td>
                                 <td>Co-operative</td>
@@ -77,71 +159,7 @@
                             </tr>
                             <tr>
                                 <td>1</td>
-                                <td>Co-operative</td>
-                                <td>savings</td>
-                                <td>61</td>
-                                <td>Co-operative</td>
-                                <td>6/2/2023</td>
-                                <td style="width: 100px">
-                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit">
-                                            <i class="fas fa-pencil-alt"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Co-operative</td>
-                                <td>savings</td>
-                                <td>61</td>
-                                <td>Co-operative</td>
-                                <td>6/2/2023</td>
-                                <td style="width: 100px">
-                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit">
-                                            <i class="fas fa-pencil-alt"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Co-operative</td>
-                                <td>savings</td>
-                                <td>61</td>
-                                <td>Co-operative</td>
-                                <td>6/2/2023</td>
-                                <td style="width: 100px">
-                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit">
-                                            <i class="fas fa-pencil-alt"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Co-operative</td>
-                                <td>savings</td>
-                                <td>61</td>
-                                <td>Co-operative</td>
-                                <td>6/2/2023</td>
-                                <td style="width: 100px">
-                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit">
-                                            <i class="fas fa-pencil-alt"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Co-operative</td>
+                                <td><a href="branch-view">Co-operative</a></td>
                                 <td>savings</td>
                                 <td>61</td>
                                 <td>Co-operative</td>
@@ -163,7 +181,154 @@
             </div>
         </div> <!-- end col -->
     </div> <!-- end row -->
+<!-- sample modal content -->
+<div
+    id="myModal"
+    class="modal fade"
+    tabindex="-1"
+    aria-labelledby="myModalLabel"
+    aria-hidden="true"
+>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myModalLabel">Edit Bank</h5>
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                ></button>
+            </div>
+            <div class="modal-body">
+                <form class="needs-validation" novalidate>
+                    <div class="row">
+                           <div class="col-md-12">
+                                <div class="mb-3">
+                                  <input type="text" class="form-control" id="validationCustom05" placeholder="SMS Header" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a SMS Header.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                  <input type="date" class="form-control" id="datepicker-datetime" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a SMS Header.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                  <select class="form-control" data-trigger name="choices-single-default"
+                                        id="choices-single-default"
+                                        placeholder="This is a search placeholder">
+                                        <option value="">Infro </option>
+                                        <option value="Choice 1">Choice 1</option>
+                                        <option value="Choice 2">Choice 2</option>
+                                        <option value="Choice 3">Choice 3</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please enter .
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
 
+
+<!-- sample modal content -->
+<div
+    id="myModal1"
+    class="modal fade"
+    tabindex="-1"
+    aria-labelledby="myModalLabel"
+    aria-hidden="true"
+>
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myModalLabel">Add Bank</h5>
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                ></button>
+            </div>
+            <div class="modal-body">
+            <form class="needs-validation" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom01">Bank Name</label>
+                                    <input type="text" class="form-control" id="validationCustom01" placeholder="" value="" required>
+                                    <div class="valid-feedback">
+                                    Please enter a bank name
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom02">Username</label>
+                                    <input type="text" class="form-control" id="validationCustom02" placeholder="" value="" required>
+                                    <div class="valid-feedback">
+                                    Please enter a username
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom03">Password</label>
+                                    <input type="text" class="form-control" id="validationCustom03" placeholder="" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a Password.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom04">Confirm Password</label>
+                                    <input type="text" class="form-control" id="validationCustom04" placeholder="" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a Confirm Password.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom05">SMS Credential</label>
+                                    <input type="text" class="form-control" id="validationCustom05" placeholder="" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a SMS Credential.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                    </form>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
     
 @endsection
 

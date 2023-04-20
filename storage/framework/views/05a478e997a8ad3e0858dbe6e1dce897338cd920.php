@@ -13,12 +13,12 @@
     <?php echo $__env->renderComponent(); ?>
 
     <div class="row">
-        <div class="col-xl-12">
+        <div class="col-xl-8 offset-xl-2">
             <div class="card">
               <div class="card-body">
                     <form class="needs-validation" novalidate>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="mb-3">
                                     <label class="form-label" for="validationCustom01">Phone number</label>
                                     <input type="text" class="form-control" id="validationCustom01" placeholder="" value="" required>
@@ -27,10 +27,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="mb-3">
                                     <label class="form-label" for="validationCustom02">Message</label>
-                                    <input type="text" class="form-control" id="validationCustom02" placeholder="" value="" required>
+                                    <textarea type="text" class="form-control" id="validationCustom02" placeholder="" value="" required></textarea>
                                     <div class="valid-feedback">
                                     Please enter a Message
                                     </div>
