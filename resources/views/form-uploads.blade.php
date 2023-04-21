@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.admin-master')
 
 @section('title') @lang('translation.File_Upload') @endsection
 
@@ -13,21 +13,33 @@
 
     @component('components.breadcrumb')
         @slot('li_1') Forms @endslot
-        @slot('title') File Upload @endslot
+        @slot('title') Uploads @endslot
     @endcomponent
     <div class="row">
         <div class="col-12">
             <div class="card">
-                <div class="card-header">
-                    <h4 class="card-title">Dropzone</h4>
-                    <p class="card-title-desc">DropzoneJS is an open source library
-                        that provides drag’n’drop file uploads with image previews.
-                    </p>
-                </div>
+               
                 <div class="card-body">
+                <form action="#" class="dropzone" style="border:none;">
+                <div class="col-md-12">
+                                <div class="mb-3">
+                                   <label for="choices-single-default" class="form-label font-size-13 text-muted">Device to upload data</label>
+                                    <select class="form-control" data-trigger name="choices-single-default"
+                                        id="choices-single-default"
+                                        placeholder="This is a search placeholder">
+                                        <option value=""> </option>
+                                        <option value="Choice 1">Branch 1</option>
+                                        <option value="Choice 2">Branch 2</option>
+                                        <option value="Choice 3">Branch 3</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please enter a Branch.
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div>
-                        <form action="#" class="dropzone">
+                    <div style="    border: 1px solid #d2d2d2;border-radius: 5px;">
+                       <div class="6">
                             <div class="fallback">
                                 <input name="file" type="file" multiple="multiple">
                             </div>
@@ -37,6 +49,7 @@
                                 </div>
 
                                 <h5>Drop files here or click to upload.</h5>
+                            </div>
                             </div>
                         </form>
                     </div>
