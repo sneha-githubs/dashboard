@@ -17,7 +17,7 @@
                 </li>
 
                 <li>
-                    <a href="receipt">
+                    <a href="admin-receipt">
                         <i data-feather="grid"></i>
                         <span data-key="t-horizontal">Receipts</span>
                     </a>
@@ -25,29 +25,33 @@
 
                
                 <li>
-                    <a href="form-uploads">
+                    <a href="admin-uploads">
                         <i data-feather="smartphone"></i>
                         <span data-key="t-horizontal">Upload</span>
                     </a>
                 </li>
                 <li>
-                    <a href="billing">
+                    <a href="admin-customer">
                         <i data-feather="file-text"></i>
                         <span data-key="t-horizontal">Customers</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="message">
+                    <a href="admin-message">
                         <i data-feather="send"></i>
                         <span data-key="t-horizontal">Message</span>
                     </a>
                 </li>
-                
-
-                
 
                 <li>
+                    <a href="admin-settings" >
+                        <i data-feather="settings"></i>
+                        <span data-key="t-components">Settings</span>
+                    </a>
+                </li>
+
+                 <li>
                     <a href="">
                         <i data-feather="log-out"></i>
                         <span data-key="t-horizontal">Logout</span>
