@@ -1,20 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="<?php echo e(str_replace('_', '-', app()->getLocale())); ?>">
 
 <head>
     <meta charset="utf-8" />
-    <title>Palm Collection</title>
+    <title> <?php echo $__env->yieldContent('title'); ?> | Palm Collection</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="" name="description" />
     <meta content="" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="<?php echo e(URL::asset('assets/images/favicon.ico')); ?>">
+    <link rel="shortcut icon" href="<?php echo e(URL::asset('assets/images/fav.png')); ?>">
     <?php echo $__env->make('layouts.head-css', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 </head>
 
 
 
-<body  class="pace-done sidebar-enable" data-sidebar-size="lg">
+<body  class="">
     
     <!-- Begin page -->
     <div id="layout-wrapper">

@@ -1,1 +1,1 @@
- <title>@@title | Minia - Minimal Admin & Dashboard Template</title>
+ <title>@@title | Palm Collection</title>

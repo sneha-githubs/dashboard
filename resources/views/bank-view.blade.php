@@ -16,6 +16,67 @@
 @endsection
 
 @section('content')
+<style>
+    .switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 25px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+</style>
 
     @component('components.breadcrumb')
         @slot('li_1') Tables @endslot
@@ -52,6 +113,7 @@
                                 <th>SMS Header</th>
                                 <th>Setup Date</th>
                                 <th>Action</th>
+                                <th>Status</th>
                             </tr>
                         </thead>
 
@@ -73,22 +135,11 @@
                                             <i class="fas fa-trash"></i>
                                         </a>
                                 </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td><a href="branch-view">Co-operative</a></td>
-                                <td>savings</td>
-                                <td>61</td>
-                                <td>Co-operative</td>
-                                <td>6/2/2023</td>
-                                <td style="width: 100px">
-                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit" data-bs-toggle="modal"
-                                    data-bs-target="#myModal">
-                                            <i class="fas fa-pencil-alt"></i>
-                                        </a>
-                                        <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
+                                <td>
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                       <span class="slider round"></span>
+                                    </label>
                                 </td>
                             </tr>
                             <tr>
@@ -107,6 +158,12 @@
                                             <i class="fas fa-trash"></i>
                                         </a>
                                 </td>
+                                <td>
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                       <span class="slider round"></span>
+                                    </label>
+                                </td>
                             </tr>
                             <tr>
                                 <td>1</td>
@@ -124,6 +181,12 @@
                                             <i class="fas fa-trash"></i>
                                         </a>
                                 </td>
+                                <td>
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                       <span class="slider round"></span>
+                                    </label>
+                                </td>
                             </tr>
                             <tr>
                                 <td>1</td>
@@ -133,12 +196,19 @@
                                 <td>Co-operative</td>
                                 <td>6/2/2023</td>
                                 <td style="width: 100px">
-                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit" data-bs-toggle="modal"
+                                    data-bs-target="#myModal">
                                             <i class="fas fa-pencil-alt"></i>
                                         </a>
                                         <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
                                             <i class="fas fa-trash"></i>
                                         </a>
+                                </td>
+                                <td>
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                       <span class="slider round"></span>
+                                    </label>
                                 </td>
                             </tr>
                             <tr>
@@ -156,6 +226,12 @@
                                             <i class="fas fa-trash"></i>
                                         </a>
                                 </td>
+                                <td>
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                       <span class="slider round"></span>
+                                    </label>
+                                </td>
                             </tr>
                             <tr>
                                 <td>1</td>
@@ -171,6 +247,34 @@
                                         <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
                                             <i class="fas fa-trash"></i>
                                         </a>
+                                </td>
+                                <td>
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                       <span class="slider round"></span>
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td><a href="branch-view">Co-operative</a></td>
+                                <td>savings</td>
+                                <td>61</td>
+                                <td>Co-operative</td>
+                                <td>6/2/2023</td>
+                                <td style="width: 100px">
+                                        <a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+                                            <i class="fas fa-pencil-alt"></i>
+                                        </a>
+                                        <a class="btn btn-outline-secondary btn-sm delete" title="Delete">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                </td>
+                                <td>
+                                    <label class="switch">
+                                      <input type="checkbox">
+                                       <span class="slider round"></span>
+                                    </label>
                                 </td>
                             </tr>
                     
@@ -202,7 +306,58 @@
             </div>
             <div class="modal-body">
                 <form class="needs-validation" novalidate>
-                    <div class="row">
+                <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom01">Bank Name</label>
+                                    <input type="text" class="form-control" id="validationCustom01" placeholder="" value="" required>
+                                    <div class="valid-feedback">
+                                    Please enter a bank name
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom02">Username</label>
+                                    <input type="text" class="form-control" id="validationCustom02" placeholder="" value="" required>
+                                    <div class="valid-feedback">
+                                    Please enter a username
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom03">Password</label>
+                                    <input type="text" class="form-control" id="validationCustom03" placeholder="" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a Password.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom04">Confirm Password</label>
+                                    <input type="text" class="form-control" id="validationCustom04" placeholder="" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a Confirm Password.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-3">
+                                    <label class="form-label" for="validationCustom05">SMS Credential</label>
+                                    <input type="text" class="form-control" id="validationCustom05" placeholder="" required>
+                                    <div class="invalid-feedback">
+                                        Please enter a SMS Credential.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                       <div class="row">
+                        <h4>Additional Details</h4>
                            <div class="col-md-12">
                                 <div class="mb-3">
                                   <input type="text" class="form-control" id="validationCustom05" placeholder="SMS Header" required>
@@ -215,7 +370,7 @@
                                 <div class="mb-3">
                                   <input type="date" class="form-control" id="datepicker-datetime" required>
                                     <div class="invalid-feedback">
-                                        Please enter a SMS Header.
+                                        Please enter a date.
                                     </div>
                                 </div>
                             </div>
